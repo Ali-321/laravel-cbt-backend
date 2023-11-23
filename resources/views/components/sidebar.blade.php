@@ -33,5 +33,16 @@
                 </ul>
             </li>
 
+            <li class="nav-item dropdown">
+                <a href="#"
+                    class="nav-link has-dropdown"><i class="far fa-user"></i> <span>soal</span></a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="{{ route('soal.index') }}">All soal</a>
+                    </li>
+
+                </ul>
+            </li>
+
     </aside>
 </div>
